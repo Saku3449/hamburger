@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.bg-swicher {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/bg1.jpg);
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    overflow: hidden;
+}
+
+.bg-swicher h1 {
+    color: #fff;
+    font-size: 150px;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    margin: 30px;
+    font-family: 'Bubblegum sans', cursive;
+}
