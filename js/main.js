@@ -14,4 +14,12 @@ $(function ($) {
       $(".fadein").css("transform", "translateY(0)");
     }
   });
+
+  $(".slider").slick({
+    arrows: false,
+    autoplay: true,
+    dots: true,
+    centerMode: true,
+    centerPadding: "20%",
+  });
 });
