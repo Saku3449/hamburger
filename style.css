@@ -29,6 +29,36 @@ body {
     font-family: 'Bubblegum sans', cursive;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+nav p {
+    margin-left: 20px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+nav a {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
 .heading {
     font-family: 'Bubble Sans', cursive;
     font-size: 64px;
@@ -187,4 +217,37 @@ thead {
 .modaal-close:hover::after,
 .modaal-close:hover::before {
     background: #fabb51
+}
+
+#access {
+    background-color: #faedc6;
+    padding: 100px 0;
+}
+
+.access-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.access-box {
+    margin-left: 50px;
+}
+
+.access-box-title {
+    font-weight: bold;
+}
+
+.access-box-text {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #fabb51;
+    padding: 20px 0;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
 }
