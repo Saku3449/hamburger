@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daisy's Burger</title>
+    <link rel="stylesheet" href="./slick.css">
+    <link rel="stylesheet" href="./slick-theme.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./modaal.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,13 +17,11 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./slick.css">
-    <link rel="stylesheet" href="./slick-theme.css">
-    <link rel="stylesheet" href="./style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="js/jquery.bgswitcher.js"></script>
-    <script src="js/main.js"></script>
+    <script src="/js/jquery.bgswitcher.js"></script>
+    <script src="/js/main.js"></script>
     <script src="/js/slick.min.js"></script>
+    <script src="/js/modaal.min.js"></script>
 </head>
 
 <body>
@@ -170,6 +172,33 @@
             </table>
         </div>
         <p class="more-button">more</p>
+    </section>
+
+    <section id="news">
+        <h2 class="heading">NEWS</h2>
+        <p class="subheading">ニュース</p>
+        <div class="modal">
+            <div class="modal-box">
+                <a href="#news1" class="modal-button">
+                    <img src="/images/banner1.jpg" alt="" class="banner">
+                </a>
+            </div>
+            <div id="news1" style="display:none;" class="news">
+                <img src="/images/banner1.jpg" alt="" class="banner">
+                <h3>モバイルオーダーシステムがスタートしました</h3>
+                <p>モバイルオーダーを使えばスムーズにお受け取りいただくことができます。</p>
+            </div>
+            <div class="modal-box">
+                <a href="#news2" class="modal-button">
+                    <img src="/images/banner2.jpg" alt="" class="banner">
+                </a>
+            </div>
+            <div id="news2" style="display:none;" class="news">
+                <img src="/images/banner2.jpg" alt="" class="banner">
+                <h3>オープン記念セール開催中です</h3>
+                <p>全品10%オフになっています。この機会にぜひご来店ください！</p>
+            </div>
+        </div>
     </section>
 </body>
 

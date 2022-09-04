@@ -34,4 +34,6 @@ $(function ($) {
       $(this).css("background-color", "#fabb51");
     }
   });
+
+  $(".modal-button").modaal();
 });
